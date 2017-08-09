@@ -20,9 +20,11 @@ def add_layer(inputs, in_size, out_size, activation_function=None,):
 
 def compute_accuracy(v_xs, v_ys):
     global prediction
-    y_pre = sess.run(prediction, feed_dict={xs: v_xs})
+    y_pre = sess.run(prediction, feed_dict={xs: v_xs})  # 生成预测值，得到的是0~9这几个数字所出现概率
     correct_prediction = tf.equal(tf.argmax(y_pre,1), tf.argmax(v_ys,1))
+    #  返回1维度出现最大值的下标.如果下标相等表示预测值相等则此时将correct_prediction设置为1
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+    # 将其格式转化为tf.float32的形式，在将其取平均值(所有维度求平均值)
     result = sess.run(accuracy, feed_dict={xs: v_xs, ys: v_ys})
     return result
 
@@ -37,7 +39,7 @@ prediction = add_layer(xs, 784, 10,  activation_function=tf.nn.softmax)
 # the error between prediction and real data
 """原先我们做的称为函数拟合，回归（regression）那时我们称之为loss表示实际数据与预测数据的误差，
    此时我们做的成为classification（分类），对应的loss称为cross_entropy"""
-#  下面是计算cross_entropy的算法，相关的类似算法可以在算法书籍中找到
+#  下面是计算cross_entropy的算法，交叉熵函数
 cross_entropy = tf.reduce_mean(-tf.reduce_sum(ys * tf.log(prediction),
                                               reduction_indices=[1]))       # loss
 # 使用的是Gradientdescentoptimizer优化方法，并且设置learning rate为0.5，并且当minimize为最小值的时候结束
@@ -55,10 +57,10 @@ sess.run(init)
 
 for i in range(1000):
     batch_xs, batch_ys = mnist.train.next_batch(100)  # 每次提取100个数据进行学习
-    sess.run(train_step, feed_dict={xs: batch_xs, ys: batch_ys})
+    sess.run(train_step, feed_dict={xs: batch_xs, ys: batch_ys})  # 学习过程
     if i % 50 == 0:
         print(compute_accuracy(
-            mnist.test.images, mnist.test.labels))
+            mnist.test.images, mnist.test.labels))  # 准确度
 #  每隔50步，将准确度打印出来
 
 
