@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eabdf9f5-d074-49ac-b7e8-4b68d8b53443" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/CNN_structure.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/18_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/18_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/017_logs/events.out.tfevents.1499079486.DESKTOP-EOVLSII" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/017_test/events.out.tfevents.1499079487.DESKTOP-EOVLSII" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/RNN_Structure.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/20_1RNN.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/20_2RNN.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/18_1.py" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/18_1CNN.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/18_2.py" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/18_2CNN.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,36 +90,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="00_ceshi_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matplotlib/demo_00/00_ceshi_demo.py">
+      <file leaf-file-name="20_1RNN.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/20_1RNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-230">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding>
+                <element signature="e#255#278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20_2RNN.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/20_2RNN.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="18_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/18_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2285">
-              <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
-              <folding>
-                <element signature="e#324#361#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="19_saver_demo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -164,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/09_numpyarray分割.py" />
-        <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/10_CopyandDeepcode.py" />
         <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/11_pandasintroduction.py" />
         <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/12_pandasselectData_demo.py" />
         <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/13_pandas设置值_demo.py" />
@@ -215,6 +199,8 @@
         <option value="$PROJECT_DIR$/TensorFlow/demo_00/tf23_BN/18_1.py" />
         <option value="$PROJECT_DIR$/TensorFlow/demo_00/18_2.py" />
         <option value="$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py" />
+        <option value="$PROJECT_DIR$/TensorFlow/demo_00/tf20_RNN2/20_1RNN.py" />
+        <option value="$PROJECT_DIR$/TensorFlow/demo_00/20_1RNN.py" />
       </list>
     </option>
   </component>
@@ -224,10 +210,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-48" />
-    <option name="y" value="3" />
-    <option name="width" value="1359" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="28" />
+    <option name="width" value="1336" />
     <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -248,6 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +256,20 @@
             <path>
               <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_00" type="462c0819:PsiDirectoryNode" />
+              <item name="tf20_RNN2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_00" type="462c0819:PsiDirectoryNode" />
+              <item name="tf20_RNN2.2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
               <item name="Tensorflow-Tutorial-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -286,8 +287,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,17 +295,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Git\Mofan_demo\TensorFlow\demo_00" />
+      <recent name="F:\Git\Mofan_demo\TensorFlow" />
+      <recent name="F:\Git\Mofan_demo\TensorFlow\demo_00\tf23_BN" />
+      <recent name="F:\mofanPy\TensorFlow\demo_00" />
+      <recent name="F:\mofanPy\Pythontutorials" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Git\Mofan_demo\TensorFlow\demo_00" />
       <recent name="F:\mofanPy\TensorFlow\demo_00" />
       <recent name="F:\mofanPy\TensorFlow\demo_00\.idea" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Git\Mofan_demo\TensorFlow" />
-      <recent name="F:\Git\Mofan_demo\TensorFlow\demo_00" />
-      <recent name="F:\Git\Mofan_demo\TensorFlow\demo_00\tf23_BN" />
-      <recent name="F:\mofanPy\TensorFlow\demo_00" />
-      <recent name="F:\mofanPy\Pythontutorials" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -371,7 +370,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mofanPy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/demo_00/18_2.py" />
+      <option name="SCRIPT_NAME" value="F:\Git\Mofan_demo\TensorFlow\demo_00\18_2CNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -602,28 +601,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-48" y="3" width="1359" height="991" extended-state="1" />
+    <frame x="28" y="0" width="1336" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22863741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20141065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.4924623" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1952596" sideWeight="0.15317918" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5386935" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746988" sideWeight="0.84682083" order="2" side_tool="false" content_ui="tabs" x="470" y="467" width="546" height="112" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24933214" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844242" sideWeight="0.4924623" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991803" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746988" sideWeight="0.84682083" order="2" side_tool="false" content_ui="tabs" x="470" y="467" width="546" height="112" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.4924623" order="6" side_tool="false" content_ui="tabs" />
@@ -660,28 +659,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pythontutorials/10_11_12_def_function_demo.py" />
-    <entry file="file://$PROJECT_DIR$/Pythontutorials/7_8_9ifjudgement_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pythontutorials/my file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pythontutorials/14_15_16WritingFiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pythontutorials/17_readingFiles_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -965,7 +942,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/18_1.py">
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/18_1CNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
@@ -980,22 +957,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/18_2.py">
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2285">
-          <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+        <state relative-caret-position="413">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#324#361#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py">
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/tf20_RNN2/20_1RNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/18_2CNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#324#361#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/20_2RNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/RNN_Structure.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/20_1RNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="e#255#278#0" expanded="true" />
           </folding>
         </state>
       </provider>
