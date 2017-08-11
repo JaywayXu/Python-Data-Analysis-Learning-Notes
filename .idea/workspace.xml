@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eabdf9f5-d074-49ac-b7e8-4b68d8b53443" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/CNN_structure.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/18_1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/18_2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/017_logs/events.out.tfevents.1499079486.DESKTOP-EOVLSII" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/017_test/events.out.tfevents.1499079487.DESKTOP-EOVLSII" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/16_classification_demo.py" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/16_classification_demo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,13 +60,15 @@
     <SUITE FILE_PATH="coverage/mofanPy$13_pandas_demo.coverage" NAME="13_pandas设置值_demo Coverage Results" MODIFIED="1498798438190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumpyAndPandas/demo_00" />
     <SUITE FILE_PATH="coverage/mofanPy$plt19_animation.coverage" NAME="plt19_animation Coverage Results" MODIFIED="1498369733002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorials-master/matplotlibTUT" />
     <SUITE FILE_PATH="coverage/mofanPy$18_pandasplot_demo.coverage" NAME="18_pandasplot_demo Coverage Results" MODIFIED="1498827712032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumpyAndPandas/demo_00" />
-    <SUITE FILE_PATH="coverage/Mofan_demo$17_Overfitingdropout_demo.coverage" NAME="17_Overfitingdropout_demo Coverage Results" MODIFIED="1502279314643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow/demo_00" />
+    <SUITE FILE_PATH="coverage/Mofan_demo$17_Overfitingdropout_demo.coverage" NAME="17_Overfitingdropout_demo Coverage Results" MODIFIED="1502282752501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow/demo_00" />
     <SUITE FILE_PATH="coverage/mofanPy$14_tensotboard_demo.coverage" NAME="14_tensotboard_demo Coverage Results" MODIFIED="1499050084989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow/demo_00" />
     <SUITE FILE_PATH="coverage/mofanPy$12_pandasselectData_demo.coverage" NAME="12_pandasselectData_demo Coverage Results" MODIFIED="1498702200235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumpyAndPandas/demo_00" />
+    <SUITE FILE_PATH="coverage/Mofan_demo$19_saver_demo.coverage" NAME="19_saver_demo Coverage Results" MODIFIED="1502413422357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow/demo_00" />
     <SUITE FILE_PATH="coverage/mofanPy$14_ReadingandWritingFiles.coverage" NAME="14_ReadingandWritingFiles Coverage Results" MODIFIED="1498888346405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pythontutorials" />
     <SUITE FILE_PATH="coverage/mofanPy$27_continue_break_demo.coverage" NAME="27_continue&amp;break_demo Coverage Results" MODIFIED="1498901120933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pythontutorials" />
     <SUITE FILE_PATH="coverage/mofanPy$35_set.coverage" NAME="35_set Coverage Results" MODIFIED="1498983724903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pythontutorials" />
     <SUITE FILE_PATH="coverage/mofanPy$12_contours_demo.coverage" NAME="12_contours_demo Coverage Results" MODIFIED="1498300086507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib/demo_00" />
+    <SUITE FILE_PATH="coverage/Mofan_demo$18_2.coverage" NAME="18_2 Coverage Results" MODIFIED="1502353410769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow/demo_00" />
     <SUITE FILE_PATH="coverage/mofanPy$14_pandas_demo.coverage" NAME="14_pandas处理丢失数据_demo Coverage Results" MODIFIED="1498801753169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumpyAndPandas/demo_00" />
     <SUITE FILE_PATH="coverage/mofanPy$11_bar_demo.coverage" NAME="11_bar_demo Coverage Results" MODIFIED="1498289316533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib/demo_00" />
     <SUITE FILE_PATH="coverage/mofanPy$tf22_scope.coverage" NAME="tf22_scope Coverage Results" MODIFIED="1499150860912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow/demo_00" />
@@ -95,24 +102,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16_classification_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/16_classification_demo.py">
+      <file leaf-file-name="18_2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/18_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="2285">
+              <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#324#361#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="17_Overfitingdropout_demo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py">
+      <file leaf-file-name="19_saver_demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="299">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,8 +151,8 @@
       <find>writer</find>
       <find>keep_prob</find>
       <find>epsilon</find>
-      <find>epsilon</find>
       <find>x_da</find>
+      <find>summary</find>
     </findStrings>
     <dirStrings>
       <dir>F:\mofanPy\Matplotlib</dir>
@@ -155,9 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/06_basicarithmetic_demo.py" />
-        <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/07_numpyIndex_demo.py" />
-        <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/08_array_merging_demo.py" />
         <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/09_numpyarray分割.py" />
         <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/10_CopyandDeepcode.py" />
         <option value="$PROJECT_DIR$/NumpyAndPandas/demo_00/11_pandasintroduction.py" />
@@ -201,11 +207,14 @@
         <option value="$PROJECT_DIR$/TensorFlow/demo_00/14_tensotboard_demo.py" />
         <option value="$PROJECT_DIR$/TensorFlow/demo_00/14_tensorboard_demo1.py" />
         <option value="$PROJECT_DIR$/TensorFlow/demo_00/15_tensorboard_demo2.py" />
-        <option value="$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py" />
         <option value="$PROJECT_DIR$/TensorFlow/demo_00/tf22_scope.py" />
         <option value="$PROJECT_DIR$/TensorFlow/demo_00/tf23_BN.py" />
         <option value="$PROJECT_DIR$/Tensorflow-Tutorial-master/tutorial-contents/502_batch_normalization.py" />
         <option value="$PROJECT_DIR$/TensorFlow/demo_00/16_classification_demo.py" />
+        <option value="$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py" />
+        <option value="$PROJECT_DIR$/TensorFlow/demo_00/tf23_BN/18_1.py" />
+        <option value="$PROJECT_DIR$/TensorFlow/demo_00/18_2.py" />
+        <option value="$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py" />
       </list>
     </option>
   </component>
@@ -215,10 +224,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1183" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-48" />
+    <option name="y" value="3" />
+    <option name="width" value="1359" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -259,48 +269,6 @@
             <path>
               <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_00" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_00" type="462c0819:PsiDirectoryNode" />
-              <item name="tf14_tensorboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_00" type="462c0819:PsiDirectoryNode" />
-              <item name="tf15_tensorboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_00" type="462c0819:PsiDirectoryNode" />
-              <item name="tf16_classification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_00" type="462c0819:PsiDirectoryNode" />
-              <item name="tf17_dropout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_00" type="462c0819:PsiDirectoryNode" />
-              <item name="tf22_scope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mofan_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mofan_demo" type="462c0819:PsiDirectoryNode" />
               <item name="Tensorflow-Tutorial-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,24 +286,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TFAPI_translation" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Git\Mofan_demo\TensorFlow\demo_00" />
       <recent name="F:\mofanPy\TensorFlow\demo_00" />
       <recent name="F:\mofanPy\TensorFlow\demo_00\.idea" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Git\Mofan_demo\TensorFlow" />
+      <recent name="F:\Git\Mofan_demo\TensorFlow\demo_00" />
+      <recent name="F:\Git\Mofan_demo\TensorFlow\demo_00\tf23_BN" />
       <recent name="F:\mofanPy\TensorFlow\demo_00" />
       <recent name="F:\mofanPy\Pythontutorials" />
-      <recent name="F:\mofanPy\NumpyAndPandas\demo_00" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -350,25 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17_Overfitingdropout_demo">
-    <configuration name="15_tensorboard_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorFlow/demo_00" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mofanPy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/demo_00/15_tensorboard_demo2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.19_saver_demo">
     <configuration name="16_classification_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -401,6 +354,42 @@
       <module name="mofanPy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="18_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorFlow/demo_00" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mofanPy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/demo_00/18_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="19_saver_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorFlow/demo_00" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mofanPy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -552,24 +541,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="tf22_scope" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorFlow/demo_00" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mofanPy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/demo_00/tf22_scope.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="tf23_BN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -589,19 +560,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.15_tensorboard_demo2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.16_classification_demo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.17_Overfitingdropout_demo" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf22_scope" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf23_BN" />
+      <item index="0" class="java.lang.String" itemvalue="Python.16_classification_demo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.17_Overfitingdropout_demo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tf23_BN" />
+      <item index="3" class="java.lang.String" itemvalue="Python.18_2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.19_saver_demo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.17_Overfitingdropout_demo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.16_classification_demo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf23_BN" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf22_scope" />
-        <item index="4" class="java.lang.String" itemvalue="Python.15_tensorboard_demo2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.19_saver_demo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.18_2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.17_Overfitingdropout_demo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.16_classification_demo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf23_BN" />
       </list>
     </recent_temporary>
   </component>
@@ -631,17 +602,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1183" height="1047" extended-state="0" />
+    <frame x="-48" y="3" width="1359" height="991" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21460374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22863741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.4924623" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.259301" sideWeight="0.14874372" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1952596" sideWeight="0.15317918" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5386935" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0056433408" sideWeight="0.8512563" order="2" side_tool="false" content_ui="tabs" x="470" y="467" width="546" height="112" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.4924623" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746988" sideWeight="0.84682083" order="2" side_tool="false" content_ui="tabs" x="470" y="467" width="546" height="112" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24933214" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844242" sideWeight="0.4924623" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991803" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -688,48 +660,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NumpyAndPandas/demo_00/16_pandasconcatenating_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials-master/numpy&amp;pandas/17_merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="68" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NumpyAndPandas/demo_00/17_pandasmerge_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="105" column="10" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials-master/numpy&amp;pandas/18_plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NumpyAndPandas/demo_00/18_pandasplot_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pythontutorials/5_6_Circulation_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pythontutorials/10_11_12_def_function_demo.py" />
     <entry file="file://$PROJECT_DIR$/Pythontutorials/7_8_9ifjudgement_demo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -969,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,9 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,9 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#83#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,11 +927,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="e#26#44#0" expanded="false" />
-            <element signature="e#264#332#0" expanded="false" />
-            <element signature="e#389#1192#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow-Tutorial-master/tutorial-contents/305_tensorboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-674">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow-Tutorial-master/tutorial-contents/501_dropout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/tf17_dropout/full_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-935">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/16_classification_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/18_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1021,21 +980,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/16_classification_demo.py">
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/18_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="2285">
+          <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#324#361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/17_Overfitingdropout_demo.py">
+    <entry file="file://$PROJECT_DIR$/TensorFlow/demo_00/19_saver_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="299">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
