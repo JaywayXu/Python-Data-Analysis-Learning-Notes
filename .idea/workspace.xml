@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eabdf9f5-d074-49ac-b7e8-4b68d8b53443" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/RNN_Structure.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/20_1RNN.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/20_2RNN.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/18_1.py" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/18_1CNN.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TensorFlow/demo_00/18_2.py" afterPath="$PROJECT_DIR$/TensorFlow/demo_00/18_2CNN.py" />
-    </list>
+    <list default="true" id="eabdf9f5-d074-49ac-b7e8-4b68d8b53443" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
