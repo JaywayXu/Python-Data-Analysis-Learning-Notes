@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt  # 大部分情况下不需要加载matplotlib�
 import numpy as np
 """制造数据"""
 """Figure指的是图层的显示框每个数据可以在不同的数据框中显示"""
-x = np.linspace(-3, 3, 50)  # 意为将-1~1之间评平分成50个点
+x = np.linspace(-3, 3, 50)  # 意为将-3~3之间评平分成50个点
 y1 = 2 * x + 1
 y2 = x**2  # 表示x的2次幂
 """这里很奇怪，x，y都是数据的集合"""

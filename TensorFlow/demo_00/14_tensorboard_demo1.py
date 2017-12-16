@@ -32,18 +32,18 @@ prediction = add_layer(l1, 10, 1, activation_function=None)
 # the error between prediciton and real data
 with tf.name_scope('loss'):
     loss = tf.reduce_mean(tf.reduce_sum(tf.square(ys - prediction),
-                                        reduction_indices=[1]))
+                                        reduction_indices=[1]))  # 二次代价函数
 
 with tf.name_scope('train'):
-    train_step = tf.train.GradientDescentOptimizer(0.1).minimize(loss)
+    train_step = tf.train.GradientDescentOptimizer(0.1).minimize(loss)  # 随机梯度下降优化器
 
 sess = tf.Session()
 
 # tf.train.SummaryWriter soon be deprecated, use following
 if int((tf.__version__).split('.')[1]) < 12 and int((tf.__version__).split('.')[0]) < 1:  # tensorflow version < 0.12
-    writer = tf.train.FileWriter("F://mofanPy/TensorFlow/demo_00/014_logs", sess.graph)
+    writer = tf.train.FileWriter("./014_logs", sess.graph)
 else:  # tensorflow version >= 0.12
-    writer = tf.summary.FileWriter("F://mofanPy/TensorFlow/demo_00/014_logs", sess.graph)
+    writer = tf.summary.FileWriter("./014_logs", sess.graph)
 
 # tf.initialize_all_variables() no long valid from
 # 2017-03-02 if using tensorflow >= 0.12
@@ -54,6 +54,4 @@ else:
 sess.run(init)
 
 # direct to the local dir and run this in terminal:
-# $ tensorboard --logdir=F://mofanPy/TensorFlow/demo_00/014_logs
-
-
+# $ tensorboard --logdir=F:/Git/Python-Data-Analysis-Learning-Notes/TensorFlow/demo_00/014_logs
