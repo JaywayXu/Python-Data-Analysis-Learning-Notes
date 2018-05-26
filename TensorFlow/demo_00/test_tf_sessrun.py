@@ -37,12 +37,14 @@ with tf.Session() as sess:
     sess.run(init_op)
     coord = tf.train.Coordinator()
     threads = tf.train.start_queue_runners(coord=coord)
+    # 同时运行的方式
     example, label, num = sess.run([x_train_batch, y_train_batch, no_train_batch])
     print('The first mode to load data')
     print('example', example)
     print('label', label)
     print('num', num)
 
+    # 分别运行的方式
     # example = sess.run(x_train_batch)
     # label = sess.run(y_train_batch)
     # num = sess.run(no_train_batch)
