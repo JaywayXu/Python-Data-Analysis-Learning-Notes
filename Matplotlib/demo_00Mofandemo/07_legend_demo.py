@@ -7,7 +7,8 @@ x = np.linspace(-3, 3, 50)  # 意为将-1~1之间评平分成50个点
 y1 = 2 * x + 1
 y2 = x**2  # 表示x的2次幂
 
-plt.figure(num=3, figsize=(8, 5))  # num设置的是figure序号，figsize设置的是长和宽度
+# plt.figure(num=3, figsize=(8, 5))  # num设置的是figure序号，figsize设置的是长和宽度
+# plt.figure()
 plt.xlim((-1, 2))  # 设置x坐标轴的范围
 plt.ylim((-2, 3))  # 设置y坐标轴的范围
 """设置x,y轴的lable即坐标轴上将要显现的文字"""

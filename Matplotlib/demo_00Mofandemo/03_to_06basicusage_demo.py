@@ -11,7 +11,7 @@ y2 = x**2  # 表示x的2次幂
 # plt.figure()
 # plt.plot(x, y1)  #设置x,y的数据源
 
-plt.figure(num=3, figsize=(8, 5))  # num设置的是figure序号，figsize设置的是长和宽度
+# plt.figure(num=3, figsize=(8, 5))  # num设置的是figure序号，figsize设置的是长和宽度
 plt.plot(x, y2)  # 默认颜色是蓝色，利用这个方法可以将两条图线装载到一个figure中
 plt.plot(x, y1, color='red', linewidth=1.0, linestyle='--')  # 这里设置颜色为红色，设置线宽度为1.0，设置线为虚线的形式
 """设置坐标轴"""
