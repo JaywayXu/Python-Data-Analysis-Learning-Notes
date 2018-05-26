@@ -1,8 +1,8 @@
 import tensorflow as tf
 
-BATCH_SIZE = 400
+BATCH_SIZE = 5
 NUM_THREADS = 2
-MAX_NUM = 5
+MAX_NUM = 500
 
 
 def read_data(file_queue):
@@ -38,20 +38,20 @@ with tf.Session() as sess:
     coord = tf.train.Coordinator()
     threads = tf.train.start_queue_runners(coord=coord)
     # 同时运行的方式
-    example, label, num = sess.run([x_train_batch, y_train_batch, no_train_batch])
-    print('The first mode to load data')
-    print('example', example)
-    print('label', label)
-    print('num', num)
-
-    # 分别运行的方式
-    # example = sess.run(x_train_batch)
-    # label = sess.run(y_train_batch)
-    # num = sess.run(no_train_batch)
-    # print('The second mode to load data')
+    # example, label, num = sess.run([x_train_batch, y_train_batch, no_train_batch])
+    # print('The first mode to load data')
     # print('example', example)
     # print('label', label)
     # print('num', num)
+
+    # 分别运行的方式
+    example = sess.run(x_train_batch)
+    label = sess.run(y_train_batch)
+    num = sess.run(no_train_batch)
+    print('The second mode to load data')
+    print('example\n', example)
+    print('label\n', label)
+    print('num\n', num)
 
     coord.request_stop()
     coord.join(threads)
