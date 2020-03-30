@@ -105,3 +105,4 @@ ENV/
 .idea/workspace.xml
 *.iml
 *.xml
+.idea/misc.xml
