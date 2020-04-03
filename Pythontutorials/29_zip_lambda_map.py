@@ -4,9 +4,14 @@ b = [4, 5, 6]
 # for zip
 print(list(zip(a, b)))  # [(1, 4), (2, 5), (3, 6)]
 print(list(zip(a, a, b)))  # [(1, 1, 4), (2, 2, 5), (3, 3, 6)]
+
 for i, j in zip(a, b):
     print(i/2, j*2)
 
+
+# 0.5 8
+# 1.0 10
+# 1.5 12
 
 # for lambda  主要用途是定义比较简单的方程
 def f1(x, y):
@@ -14,8 +19,8 @@ def f1(x, y):
 
 
 f2 = lambda x, y: x + y
-print(f1(1, 2))
-print(f2(1, 2))
+print(f1(1, 2))  # 3
+print(f2(1, 2))  # 3
 
 # for map
 # map 是将值和函数封装起来进行操作，并且和zip,lambda,一样只有使用过list函数之后才能输出
