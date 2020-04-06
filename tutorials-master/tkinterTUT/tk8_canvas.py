@@ -7,7 +7,7 @@ import tkinter as tk
 
 window = tk.Tk()
 window.title('my window')
-window.geometry('200x200')
+window.geometry('500x500')
 
 canvas = tk.Canvas(window, bg='blue', height=100, width=200)
 image_file = tk.PhotoImage(file='ins.gif')
@@ -23,7 +23,6 @@ def moveit():
     canvas.move(rect, 0, 2)
 
 b = tk.Button(window, text='move', command=moveit).pack()
-
 
 window.mainloop()
 
